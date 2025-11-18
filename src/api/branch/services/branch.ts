@@ -15,18 +15,18 @@ export default factories.createCoreService('api::branch.branch', ({ strapi }) =>
         const name = ctx.query.name ? ctx.query?.name.toLowerCase() : null;
         const latitude = Number(ctx.query.latitude) ?? null;
         const longitude = Number(ctx.query.longitude) ?? null;
-        const radius = Number(ctx.query.radius);
+        const radius = Number(ctx.query.radius) ?? 5000;
 
         const trx = await strapi.db.connection.transaction();
 
         try {
             const query = `
-                SELECT id, name, latitude, longitude,
+                SELECT id, branchName, latitude, longitude,
                 (
                     6371000 * acos(
-                    cos(radians(?)) * cos(radians(latitude)) *
-                    cos(radians(longitude) - radians(?)) +
-                    sin(radians(?)) * sin(radians(latitude))
+                        cos(radians(?)) * cos(radians(latitude)) *
+                        cos(radians(longitude) - radians(?)) +
+                        sin(radians(?)) * sin(radians(latitude))
                     )
                 ) AS distance
                 FROM branches
