@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_common_videos",
+  "info": {
+    "displayName": "Video"
+  },
+  "options": {},
+  "attributes": {
+    "stream_url_desktop": {
+      "type": "string"
+    },
+    "stream_url_mobile": {
+      "type": "string"
+    },
+    "desktop_poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobile_poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "desktop_video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "mobile_video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

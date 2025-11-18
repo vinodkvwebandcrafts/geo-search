@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_repeatable_texts",
+  "info": {
+    "displayName": "Repeatable_Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

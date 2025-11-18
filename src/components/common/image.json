@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "desktop_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobile_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

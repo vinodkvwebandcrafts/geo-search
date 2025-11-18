@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_tags",
+  "info": {
+    "displayName": "tag",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

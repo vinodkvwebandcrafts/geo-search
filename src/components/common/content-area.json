@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_content_areas",
+  "info": {
+    "displayName": "Content_area"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    }
+  },
+  "config": {}
+}

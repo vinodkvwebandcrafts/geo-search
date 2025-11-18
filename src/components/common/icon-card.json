@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_icon_cards",
+  "info": {
+    "displayName": "Icon Card",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

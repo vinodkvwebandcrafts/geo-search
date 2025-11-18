@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "url_mappers",
+  "info": {
+    "singularName": "url-mapper",
+    "pluralName": "url-mappers",
+    "displayName": "url-mapper"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "collection"
+      ]
+    },
+    "cid": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

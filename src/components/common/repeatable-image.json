@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_repeatable_images",
+  "info": {
+    "displayName": "Repeatable_image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

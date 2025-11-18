@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_repeatable_values",
+  "info": {
+    "displayName": "repeatable_values",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

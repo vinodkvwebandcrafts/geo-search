@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_follows",
+  "info": {
+    "displayName": "Follow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "component",
+      "component": "common.icon",
+      "repeatable": true
+    },
+    "use_global": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

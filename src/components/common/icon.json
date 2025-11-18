@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_icons",
+  "info": {
+    "displayName": "Icon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

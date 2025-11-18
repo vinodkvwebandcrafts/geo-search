@@ -1,0 +1,51 @@
+{
+  "name": "ceramic",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^6.0.3",
+    "@strapi/plugin-cloud": "5.31.0",
+    "@strapi/plugin-seo": "^2.0.8",
+    "@strapi/plugin-users-permissions": "5.31.0",
+    "@strapi/strapi": "5.31.0",
+    "axios": "^1.13.2",
+    "moment": "^2.30.1",
+    "node-html-parser": "^7.0.1",
+    "nodemailer": "^7.0.10",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0",
+    "url": "^0.11.4",
+    "xlsx": "^0.18.5",
+    "xml": "^1.0.1",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "a6bb9f9d-f149-4eb0-8e32-dd10ae96d833",
+    "installId": "7773f9c4adda1a5b7b72d98af9e4e3ab351888079800a887430947f780c08888"
+  }
+}

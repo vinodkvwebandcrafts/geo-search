@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "target_blank": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

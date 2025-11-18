@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branches",
+  "info": {
+    "singularName": "branch",
+    "pluralName": "branches",
+    "displayName": "Branch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "branchName": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "branchName"
+    },
+    "latitude": {
+      "type": "decimal",
+      "required": true
+    },
+    "longitude": {
+      "type": "decimal",
+      "required": true
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "workingHours": {
+      "type": "string"
+    },
+    "mapUrl": {
+      "type": "string"
+    }
+  }
+}

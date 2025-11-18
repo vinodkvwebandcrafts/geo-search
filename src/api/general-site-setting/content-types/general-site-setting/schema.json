@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_site_settings",
+  "info": {
+    "singularName": "general-site-setting",
+    "pluralName": "general-site-settings",
+    "displayName": "General Site Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "revalidate_url": {
+      "type": "string"
+    },
+    "recaptcha_secret_key": {
+      "type": "text"
+    },
+    "og": {
+      "type": "component",
+      "component": "shared.open-graph",
+      "repeatable": false
+    },
+    "meta_social": {
+      "type": "component",
+      "component": "shared.meta-social",
+      "repeatable": true
+    }
+  }
+}

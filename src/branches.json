@@ -1,0 +1,296 @@
+[
+  {
+    "branchName": "BANGALORE",
+    "address": "LuLu Forex Pvt Ltd S And S Corner, No.48, 2nd Floor Unit No – 201, Bowring Hospital Road, Next To Kamat Hotel Bengaluru – 560051",
+    "email": "bangalore.branch@in.luluforex.com",
+    "telephone": "080 - 40993181 / 40993505",
+    "mobile": "81399999574",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 12.98481068,
+    "longitude": 77.6056434,
+    "mapUrl": "https://maps.app.goo.gl/WnoW75uMbR3YnvhY6",
+    "branchId": "WnoW75uMbR3YnvhY6"
+  },
+  {
+    "branchName": "COIMBATORE",
+    "address": "LuLu Forex Pvt. Ltd. Shop No. 57, Ramachandra Road R S Puram, Coimbatore - 641002 Tamil Nadu",
+    "email": "coimbatore.branch@in.luluforex.com",
+    "telephone": "0422 - 2475666",
+    "mobile": "9061179786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 11.007120173043027,
+    "longitude": 76.95496878223702,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@11.0068411,76.9523617,17z/data=!4m14",
+    "branchId": ""
+  },
+  {
+    "branchName": "CALICUT",
+    "address": "LuLu Forex Pvt. Ltd. Door No. 63/2911, Emerald Mall, Mavoor Road, Calicut - 6730047",
+    "email": "calicut.branch@in.luluforex.com",
+    "telephone": "0495 - 2727786",
+    "mobile": "9656018786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 11.25969488,
+    "longitude": 75.78917764,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@11.2596318,75.7866295,17z",
+    "branchId": ""
+  },
+  {
+    "branchName": "CHANDIGARH",
+    "address": "LuLu Forex Pvt Ltd First Floor, Suite No. 204 , S.C.O No. 128-129 Sector - 8/C, Chandigarh - 160 008",
+    "email": "chandigarh.branch@in.luluforex.com",
+    "telephone": "0172 - 4080696 /0172 4088354",
+    "mobile": "8264633368",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 30.73918925777151,
+    "longitude": 76.79502576928098,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@30.7389818,76.7923865,17z",
+    "branchId": ""
+  },
+  {
+    "branchName": "CHENNAI",
+    "address": "LuLu Forex Pvt. Ltd. Shop No.G5,G6,Old No.149/New No. 4, ALSA Mall, Montieth road, Egmore, Chennai – 600008.",
+    "email": "chennai.branch@in.luluforex.com",
+    "telephone": "044 - 26222122",
+    "mobile": "8939808485",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 13.06876044,
+    "longitude": 80.2570918,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@13.0685044,80.2545169,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "LULU MALL EDAPPALLY - COCHIN",
+    "address": "LuLu Forex Pvt. Ltd. Unit No: G -54, Ground Floor, LuLu International Shopping Mall, NH-17, Edappally, Kochi-682024",
+    "email": "lulumall.branch@in.luluforex.com",
+    "telephone": "0484 - 4040890",
+    "mobile": "9744098786",
+    "workingHours": "10.00 AM to 10.00 PM (Monday to Sunday)",
+    "latitude": 10.02834962,
+    "longitude": 76.30659835,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@10.0280274,76.304002,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "GURGAON",
+    "address": "LULU Forex Pvt. Ltd. G-101 ,Sushant Shopping Arcade, Sushant Lok-1, (B – Block)  Gurgaon - 122 001, Haryana",
+    "email": "gurugram.branch@in.luluforex.com",
+    "telephone": "0124 - 4008373/4004243",
+    "mobile": "9643372322",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 28.46358815,
+    "longitude": 77.07675822,
+    "mapUrl": "https://maps.app.goo.gl/q7EGKKunX4z4w23r6",
+    "branchId": "q7EGKKunX4z4w23r6"
+  },
+
+  {
+    "branchName": "HYDERABAD",
+    "address": "LuLu Forex Shop No. G20, Ground Floor, Kubera Towers, Narayanaguda, Beside Narayanaguda Flyover, Hyderabad – 500029, Telangana.",
+    "email": "hyderabad.branch@in.luluforex.com",
+    "telephone": "040 - 40186789/ 40176789",
+    "mobile": "9207470786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 17.40655473,
+    "longitude": 78.47926348,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex+Pvt.+Ltd./@17.4062681,78.4767315,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "PARK STREET - KOLKATA",
+    "address": "LuLu Forex Pvt. Ltd. Shop No 23, Ground floor, Park Center, 24 Park Street, Kolkata - 700016",
+    "email": "kolkata.branch@in.luluforex.com",
+    "telephone": "033 - 40007862/ 40614470",
+    "mobile": "7890022442",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 22.55115576,
+    "longitude": 88.35393052,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@22.5510022,88.3513449,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "KOLLAM",
+    "address": "LuLu Forex Pvt. Ltd. Shop No: Mc/XVI/259a/1610, Thankam Complex, Residency Road, Chinnakada, Kollam – 691001",
+    "email": "kollam.branch@in.luluforex.com",
+    "telephone": "0474 - 2751786",
+    "mobile": "9744065786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 8.8927244,
+    "longitude": 76.5719155,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@8.8887407,76.5875513,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "MANGALORE",
+    "address": "LuLu Forex Pvt. Ltd. Ganesh Mahal Complex. No. 13-13-131513/22, KS Rao Road, Hampankatta Mangalore 575001",
+    "email": "mangalore.branch@in.luluforex.com",
+    "telephone": "0824 - 4253155/ 4253255",
+    "mobile": "8747020111",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 12.87294224,
+    "longitude": 74.84185789,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@12.872686,74.8393581,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "RAJAJI ROAD - COCHIN",
+    "address": "LuLu Forex Pvt. Ltd. Shop No . 66/3806, Ground Floor, Shah Estate Near Gangothri Hall, Rajaji Road, Ernakulam - 682035",
+    "email": "ernakulam.branch@in.luluforex.com",
+    "telephone": "0484 - 4050075",
+    "mobile": "9744175786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 9.978831471,
+    "longitude": 76.2843187,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@9.9785937,76.2816687,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "MUMBAI",
+    "address": "LuLu Forex Pvt. Ltd. Shop no 9, A1 Vidyadani CHS, OM Nagar, Kanti Nagar, J B Nagar, Andheri East, Mumbai, Maharashtra 400099",
+    "email": "mumbai.branch@in.luluforex.com",
+    "telephone": "022 - 46063681",
+    "mobile": "7721024545",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 19.106166,
+    "longitude": 72.8661612,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@19.106166,72.8661612,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "MYSORE",
+    "address": "LuLu Forex Pvt. Ltd. 1302/2,Bakshi Narasappa Agrahara, Dewan's Road, Devaraja Mohalla, Mysore - 570001",
+    "email": "mysore.branch@in.luluforex.com",
+    "telephone": "0821 - 2424786/ 4244433",
+    "mobile": "8139999571",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 12.3110294,
+    "longitude": 76.64652944,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex+Pvt+Ltd/@12.3107726,76.6439009,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "NEW DELHI",
+    "address": "LuLu Forex Pvt. Ltd. Space No – 74, Upper Ground Floor, World Trade Centre, Babar Road, New Delhi – 110001",
+    "email": "delhi.branch@in.luluforex.com",
+    "telephone": "011 - 43612188/011 - 43613188",
+    "mobile": "9207430786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 28.63082967,
+    "longitude": 77.22709903,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@28.6306084,77.2245134,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "NOIDA",
+    "address": "LuLu Forex Pvt. Ltd. Shop No . 6 , Ground Floor, Ansal Fortune Arcade, Sector -18 Noida - 201301",
+    "email": "noida.branch@in.luluforex.com",
+    "telephone": "0120 - 2516013",
+    "mobile": "8929064837",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 28.57307014,
+    "longitude": 77.32257445,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex+Noida+Branch",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "PUNE",
+    "address": "LuLu Forex Pvt. Ltd. Shop 16, First Floor, PT Gera Centre Condominium, Bund Garden Road, Pune - 411001",
+    "email": "pune.branch@in.luluforex.com",
+    "telephone": "020 - 44469053",
+    "mobile": "7721035353",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 18.53472119,
+    "longitude": 73.87923803,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@18.5345025,73.8762769,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "SALT LAKE - KOLKATA",
+    "address": "LuLu Forex Pvt. Ltd. Ground Floor, Shop No 01, Indo Japan House, Plot No – J-1/12 Block EP and GP Sector V Bidhannagar Salt Lake Kolkata – 700091",
+    "email": "saltlake.branch@in.luluforex.com",
+    "telephone": "033 - 40063030",
+    "mobile": "7890022441",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 22.57193033,
+    "longitude": 88.4357887,
+    "mapUrl": "https://www.google.com/maps/place/Lulu+Forex/@22.5717124,88.4332138,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "THRISSUR",
+    "address": "LuLu Forex Pvt. Ltd. Shop No. 2088/8, Sitaram Tejal Complex, Aswani Junction, Thrissur - 680022",
+    "email": "thrissur.branch@in.luluforex.com",
+    "telephone": "0487 - 2325300",
+    "mobile": "9656921786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 10.53586917,
+    "longitude": 76.21471242,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@10.5356424,76.2121268,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "THIRUVALLA",
+    "address": "LuLu Forex Pvt. Ltd. Shop No. 438 & 439 First Floor Amprayil Building, Near Private Bus Stand TK Road Thiruvalla 689101",
+    "email": "thiruvalla.branch@in.luluforex.com",
+    "telephone": "0469 2602786",
+    "mobile": "9847234786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 10.5442763,
+    "longitude": 76.1383668,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex+%7C+Thiruvalla",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "TRIVANDRUM",
+    "address": "LuLu Forex Pvt. Ltd. 1st Floor Shop No. TC -72/1550, Old TC 41/9(8) Alfa Tower Manacaud P O, Thiruvananthapuram – 695009",
+    "email": "trivandrum.branch@in.luluforex.com",
+    "telephone": "0471 - 2454777",
+    "mobile": "9744035786",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 8.479123489,
+    "longitude": 76.94778119,
+    "mapUrl": "https://maps.app.goo.gl/ZqhAwx3TpjjN97DH6",
+    "branchId": "ZqhAwx3TpjjN97DH6"
+  },
+
+  {
+    "branchName": "VAZHAKKALA (H.O) - COCHIN",
+    "address": "LuLu Forex Pvt. Ltd. Y Tower, Civil Line Road, Vazhakkala Kakkanad West P O Cochin – 682030",
+    "email": "cochin.branch@in.luluforex.com",
+    "telephone": "0484 - 4187757/758",
+    "mobile": "",
+    "workingHours": "9.30 AM to 6.00 PM (Monday to Saturday); 10.00 AM to 2.00 PM (2nd & 4th Saturday); Sunday (Holiday)",
+    "latitude": 10.01290222,
+    "longitude": 76.32945722,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex/@10.0127279,76.3268716,17z",
+    "branchId": ""
+  },
+
+  {
+    "branchName": "LULU MALL THIRUVANANTHAPURAM",
+    "address": "LuLu Forex Pvt. Ltd. Unit No : B – 02, Ground Floor, Lulu International Shopping Mall, Tc 91/270/2, Anayara P O, Trivandrum., Kerala - 695029",
+    "email": "trivandrummall.branch@in.luluforex.com",
+    "telephone": "0471 - 2414777",
+    "mobile": "9061152786",
+    "workingHours": "10.00 AM to 10.00 PM (Monday to Sunday)",
+    "latitude": 8.516053829,
+    "longitude": 76.89771128,
+    "mapUrl": "https://www.google.com/maps/place/LuLu+Forex+Thiruvananthapuram+branch",
+    "branchId": ""
+  }
+]
