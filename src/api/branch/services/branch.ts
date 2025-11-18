@@ -8,13 +8,47 @@ import { getImage } from '../../../helpers/getImage';
 import { seoPopulate } from '../../../helpers/variables';
 
 export default factories.createCoreService('api::branch.branch', ({ strapi }) => ({
-    async getAllBranches(query) {
+    async getAllBranches(ctx) {
 
-        const limit = query.limit ?? 6;
-        const offset = query.offset ?? 0;
-        const name = query.name ? query?.name.toLowerCase() : null;
-        const latitude = query.latitude ?? null;
-        const longitude = query.longitude ?? null;
+        const limit = ctx.query.limit ?? 6;
+        const offset = ctx.query.offset ?? 0;
+        const name = ctx.query.name ? ctx.query?.name.toLowerCase() : null;
+        const latitude = Number(ctx.query.latitude) ?? null;
+        const longitude = Number(ctx.query.longitude) ?? null;
+        const radius = Number(ctx.query.radius);
+
+        const trx = await strapi.db.connection.transaction();
+
+        try {
+            const query = `
+                SELECT id, name, latitude, longitude,
+                (
+                    6371000 * acos(
+                    cos(radians(?)) * cos(radians(latitude)) *
+                    cos(radians(longitude) - radians(?)) +
+                    sin(radians(?)) * sin(radians(latitude))
+                    )
+                ) AS distance
+                FROM branches
+                HAVING distance <= ?
+                ORDER BY distance ASC
+            `;
+
+            const result = await trx.raw(query, [
+                latitude,
+                longitude,
+                latitude,
+                radius,
+            ]);
+
+            await trx.commit();
+
+            ctx.body = result.rows;
+        } catch (error) {
+            await trx.rollback();
+            strapi.log.error("Geo search error:", error);
+            ctx.throw(500, "Internal server error");
+        }
 
         const [branches, count] = await strapi.db.query('api::branch.branch').findWithCount({
             where: {
