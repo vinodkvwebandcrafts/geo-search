@@ -10,54 +10,109 @@ import { seoPopulate } from '../../../helpers/variables';
 export default factories.createCoreService('api::branch.branch', ({ strapi }) => ({
     async getAllBranches(ctx) {
 
-        const limit = ctx.query.limit ?? 6;
-        const offset = ctx.query.offset ?? 0;
-        const name = ctx.query.name ? ctx.query?.name.toLowerCase() : null;
-        const latitude = Number(ctx.query.latitude) ?? null;
-        const longitude = Number(ctx.query.longitude) ?? null;
-        const radius = Number(ctx.query.radius) ?? 5000;
+        const limit = Number(ctx.query?.limit) || 6;
+        const offset = Number(ctx.query?.offset) || 0;
+        const name = ctx.query?.name ? ctx.query.name.toLowerCase() : null;
+
+        const latitude = ctx.query?.latitude ? Number(ctx.query.latitude) : null;
+        const longitude = ctx.query?.longitude ? Number(ctx.query.longitude) : null;
+        const radius = ctx.query?.radius ? Number(ctx.query.radius) : 1000;
+
+        // If no lat/lng provided → skip geo search entirely
+        if (!latitude || !longitude) {
+            return {
+                results: { branches: [] },
+                pagination: {
+                    limit,
+                    offset,
+                    pageCount: 0,
+                    total: 0
+                }
+            };
+        }
 
         const trx = await strapi.db.connection.transaction();
 
+        let nearestBranches = null;
+
         try {
             const query = `
-                SELECT id, branchName, latitude, longitude,
-                (
+                SELECT 
+                    id, 
+                    branch_name,
+                    latitude,
+                    longitude,
+                    slug,
+                    latitude,
+                    longitude,
+                    location_id,
+                    address,
+                    email,
+                    mobile,
+                    telephone,
+                    working_hours,
+                    map_url,
+                    (
+                        6371000 * acos(
+                            cos(radians(?)) * cos(radians(latitude)) *
+                            cos(radians(longitude) - radians(?)) +
+                            sin(radians(?)) * sin(radians(latitude))
+                        )
+                    ) AS distance
+                FROM branches
+                WHERE latitude IS NOT NULL
+                AND longitude IS NOT NULL
+                AND published_at IS NOT NULL
+                AND (
                     6371000 * acos(
                         cos(radians(?)) * cos(radians(latitude)) *
                         cos(radians(longitude) - radians(?)) +
                         sin(radians(?)) * sin(radians(latitude))
                     )
-                ) AS distance
-                FROM branches
-                HAVING distance <= ?
+                ) <= ?
                 ORDER BY distance ASC
+                LIMIT ?
+                OFFSET ?
             `;
 
-            const result = await trx.raw(query, [
+            nearestBranches = await trx.raw(query, [
+                latitude,
+                longitude,
+                latitude,
                 latitude,
                 longitude,
                 latitude,
                 radius,
+                limit,
+                offset
             ]);
 
             await trx.commit();
 
-            ctx.body = result.rows;
+            // return nearestBranches
+
         } catch (error) {
             await trx.rollback();
             strapi.log.error("Geo search error:", error);
-            ctx.throw(500, "Internal server error");
+            ctx.throw(500, error.message || "Internal server error");
         }
+
+        const nearestBranchesIds = nearestBranches?.rows?.length > 0 ? nearestBranches?.rows?.map(item => item?.id) : []
 
         const [branches, count] = await strapi.db.query('api::branch.branch').findWithCount({
             where: {
                 $and: [
                     {publishedAt: { $notNull: true }},
+                    {
+                        id: {
+                            $notIn: nearestBranchesIds
+                        }
+                    },
                     name ? { branchName: { $containsi: name } } : {},
                 ]
             },
             select: [
+                'id',
                 'branchName', 
                 'slug', 
                 'latitude', 
@@ -88,10 +143,12 @@ export default factories.createCoreService('api::branch.branch', ({ strapi }) =>
                 }
             };
         }
+
+        const allBranches = [...nearestBranches?.rows, ...branches]
         
         return {
             results: {
-                branches: branches?.length > 0 ? branches : [],
+                allBranches: allBranches?.length > 0 ? allBranches : [],
             },
             pagination: {
                 limit: Math.ceil(limit),
